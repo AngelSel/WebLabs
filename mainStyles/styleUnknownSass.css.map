@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACF,UAAU,EAAE,MAAM;;AAEpB,eAAe;EACb,MAAM,EAAE,IAAI;;AAEd,yCAAyC;EACvC,KAAK;IACH,WAAW,EAAE,GAAG;IAChB,MAAM,EAAE,IAAI",
+"sources": ["styleUnknownSass.sass"],
+"names": [],
+"file": "styleUnknownSass.css"
+}

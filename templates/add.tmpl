@@ -1,0 +1,47 @@
+{% extends "base.tmpl" %}
+{% block content %}
+    <main>
+        <h2 class="add-header">Share information</h2>
+        <div class="articles">
+            <div class="article" style="width: 75%">
+
+
+                <form id="contact-form" method="post">
+                    <div>
+                        <div class="contact-form__col">
+                            <label class="field-lable" for="email">
+                                Email<br>
+                                <input class="field-fill" type="email" autocomplete="on" required>
+                            </label><br><br>
+                            <label class="field-lable" for="name">
+                                Topic<br>
+                                <input class="field-fill" type="name" autocomplete="on" required="">
+                            </label><br><br>
+                        </div>
+                        <div class="contact-form__col">
+                            <label class="field-lable" for="select">
+                                Subject<br>
+                                <select class="select-subject">
+                                    <option value="" selected="">Select</option>
+                                    <option value="Locations">Locations</option>
+                                    <option value="Creatures">Creatures</option>
+                                    <option value="Mysteries">Mysteries</option>
+                                </select>
+                            </label>
+                            <br><br>
+                            <label class="field-lable" for="textarea">
+                                Short Discription<br>
+                                <textarea class="message-textarea" maxlength="5000" cols="30" rows="3" required=""></textarea>
+                            </label><br>
+
+                        </div>
+                    </div>
+                    <div>
+                        <input id="button" type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+{% endblock %}

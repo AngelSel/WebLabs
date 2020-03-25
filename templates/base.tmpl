@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head>
+	<title>{{name}}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../00styles/style-sass.css"/>
+<body>
+
+		<header>
+			<h1>{{title}}</h1>
+			<hr class="header__line">
+		</header>
+		<nav>
+		<div class="menu-container">
+			<ul class="menu">
+				<li class="menu__menu-item"><a class="menu__menu-link" href="index.php">Unknown</a></li>
+				<li class="menu__menu-item"><a class="menu__menu-link" href="file:/laba3/locations/locations.php">Locations</a></li>
+				<li class="menu__menu-item"><a class="menu__menu-link" href="creatures/creatures.php">Creatures</a></li>
+				<li class="menu__menu-item"><a class="menu__menu-link" href="mysteries/mysteries.php">Mysteries</a></li>
+				<li class="menu__menu-item"><a class="menu__menu-link" href="add/add.php">Help</a></li>
+			</ul>
+		</div>
+		</nav>
+
+		<div id="content">
+                {% block content %}
+                {% endblock %}
+		</div>
+
+	
+</body></html>

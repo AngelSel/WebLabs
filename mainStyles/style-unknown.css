@@ -1,0 +1,16 @@
+body{
+  overflow-y: hidden;
+}
+
+.menu-container{
+  height: 70vh;
+}
+
+@media only screen and (max-width: 799px){
+
+  .menu{
+    padding-top: 20%;
+    height: 60vh;
+  }
+
+}
