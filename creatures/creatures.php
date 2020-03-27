@@ -1,5 +1,5 @@
 <?php
-require_once 'D:/Ангелина/laba3/vendor/autoload.php';
+require_once '../vendor/autoload.php';
 Twig_Autoloader::register();
 echo '<link rel="stylesheet" type="text/css" href="/00styles/style.css">';
 echo '<link rel="stylesheet" type="text/css" href="creaturesStyles/style-creatures.css">';

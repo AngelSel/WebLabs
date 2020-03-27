@@ -1,5 +1,5 @@
 <?php
-require_once 'D:/Ангелина/laba3/vendor/autoload.php';
+require_once '../vendor/autoload.php';
 Twig_Autoloader::register();
 
 echo '<link rel="stylesheet" type="text/css" href="/00styles/style.css">';
@@ -7,7 +7,7 @@ echo '<link rel="stylesheet" type="text/css" href="addStyles/style-add.css">';
 $pattern='/([a-zA-Z0-9_+.-]+)@([a-z.-]+)/';
 $matches =[];
 try {
-
+    $text=" ";
     $loader = new Twig_Loader_Filesystem('../templates');
     $twig = new Twig_Environment($loader);
     $template = $twig->loadTemplate('add.tmpl');
