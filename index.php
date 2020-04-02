@@ -10,7 +10,7 @@ try {
     $loader = new Twig_Loader_Filesystem('templates');
     $twig = new Twig_Environment($loader);
     $template = $twig->loadTemplate('mainPage.tmpl');
-    echo $template-> render(['title'=>'Dark Wood','name'=>'Into the Unknown']);
+    echo $template-> render(['name'=>'Into the Unknown']);
 
 } catch (Exception $e) {
     die ('ERROR: ' . $e->getMessage());
